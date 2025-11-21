@@ -17,6 +17,9 @@ background-color: yellow;
 
  
 }
+.logo img{
+  height: 50px;
+}
 header{
     background-color: rgb(255,255,221);
 }
