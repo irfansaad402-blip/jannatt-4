@@ -1,0 +1,121 @@
+.hero{
+    background: linear-gradient(rgba(15,17,20,0.6),rgba(15,17,20,0.6)),url(/img/img.jpg) no-repeat center/cover;
+    height: 500px
+}
+
+.left{
+    background: linear-gradient(rgba(253, 249, 249, 0.877),rgba(252, 252, 252, 0.514)),url(img/img\ 3.jpg) no-repeat center/cover;
+    height:100%;
+    margin-top: 20px;
+}
+i{ font-size: 20px;
+    color: black;
+   box-sizing: border-box;
+background-color: yellow;
+
+  
+
+ 
+}
+header{
+    background-color: rgb(255,255,221);
+}
+
+iframe{
+    width: 100%;
+}
+
+body,html{
+    overflow-x: hidden; 
+}
+
+body{
+       background-color: rgb(255, 255, 221);
+        
+       }p{
+        font-size: 13px;
+       }
+       .stat-box {
+    background-color:rgba(110, 44, 46);
+  border-radius: 10px;
+  padding: 25px 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.stat-box div:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.state-num {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-top: 8px;
+}
+/* Hover Effect */
+.stat-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.12);
+}
+ .feature{
+           background: linear-gradient(rgba(5, 5, 5, 0.767),rgba(8, 8, 8, 0.774)),url(/img/about\ 1.jpg) no-repeat center/cover;
+        height: 400px;
+        }
+        img{
+
+            height: 500px;
+     }
+a:hover{
+    
+      color: maroon;
+     }
+     a{
+      color: white;
+     }
+       .card{
+          background-color: rgb(255, 255, 221);
+        overflow: hidden;
+  border-radius: 20px;
+  
+      
+       }
+       .team img{
+        border-radius: 20px;
+        height: 300px;
+       }
+    
+     p{
+ 
+      text-align: justify;
+    
+     }
+       .card:hover{
+        transform: translateY(-5px);
+    border-radius:10px;
+    cursor: pointer;
+     /* transform: scale(0.98); */
+    box-shadow: 0 6px 20px maroon 
+}
+.team img:hover
+{
+    transform: translateY(-5px);
+   box-shadow: 0 6px 20px maroon 
+}
+.card img{
+ cursor: pointer;
+  object-fit: cover;
+  height: 200px;
+}
+footer {
+    background-color: rgba(110, 44, 46);
+}
+
+footer p {
+    color: white;
+    text-align: center !important;   /* Force center */
+    width: 100%;                     /* Full width required */
+}
