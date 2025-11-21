@@ -17,6 +17,12 @@ background-color: yellow;
 
  
 }
+.hero ,h1 ,p{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .logo img{
   height: 50px;
 }
