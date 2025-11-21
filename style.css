@@ -1,8 +1,8 @@
 .hero{
     background: linear-gradient(rgba(15,17,20,0.6),rgba(15,17,20,0.6)),url(/img/img.jpg) no-repeat center/cover;
-    height: 500px
+    height:100%
 }
-.feature,h1 ,p{
+.feature,h1{
  
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@
 .left{
     background: linear-gradient(rgba(253, 249, 249, 0.877),rgba(252, 252, 252, 0.514)),url(img/img\ 3.jpg) no-repeat center/cover;
     height:100%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 i{ font-size: 20px;
     color: black;
@@ -22,12 +22,12 @@ background-color: yellow;
 
  
 }
-.hero ,h1 ,p{
+/* .hero,h1 {
  
-  display: flex;
+
   justify-content: center;
   align-items: center;
-}
+} */
 .logo img{
   height: 50px;
 }
@@ -77,7 +77,7 @@ body{
 }
  .feature{
            background: linear-gradient(rgba(5, 5, 5, 0.767),rgba(8, 8, 8, 0.774)),url(/img/about\ 1.jpg) no-repeat center/cover;
-        height: 500px;
+        height: 100%;
         }
         img{
 
