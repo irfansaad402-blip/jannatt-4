@@ -1,3 +1,10 @@
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       background-color: rgb(255, 255, 221);
+        
+       }
+
 .hero{
     background: linear-gradient(rgba(15,17,20,0.6),rgba(15,17,20,0.6)),url(/img/img.jpg) no-repeat center/cover;
     height:100%
@@ -44,10 +51,7 @@ body,html{
 }
 
 
-body{
-       background-color: rgb(255, 255, 221);
-        
-       }p{
+p{
         font-size: 13px;
        }
        .stat-box {
@@ -120,6 +124,9 @@ a:hover{
     transform: translateY(-5px);
    box-shadow: 0 6px 20px maroon 
 }
+.text{
+  color: rgb(110,44,46);
+}
 .card img{
  cursor: pointer;
   object-fit: cover;
@@ -128,7 +135,9 @@ a:hover{
 footer {
     background-color: rgba(110, 44, 46);
 }
-
+.team{
+  color: rgb(110,44,46);
+}
 footer p {
     color: white;
     text-align: center !important;   /* Force center */
