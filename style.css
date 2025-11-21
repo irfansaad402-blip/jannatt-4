@@ -2,7 +2,12 @@
     background: linear-gradient(rgba(15,17,20,0.6),rgba(15,17,20,0.6)),url(/img/img.jpg) no-repeat center/cover;
     height: 500px
 }
-
+.feature,h1 ,p{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .left{
     background: linear-gradient(rgba(253, 249, 249, 0.877),rgba(252, 252, 252, 0.514)),url(img/img\ 3.jpg) no-repeat center/cover;
     height:100%;
