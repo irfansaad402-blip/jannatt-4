@@ -5,6 +5,7 @@ body{
         
        }
 
+       
 .hero{
     background: linear-gradient(rgba(15,17,20,0.6),rgba(15,17,20,0.6)),url(/img/img.jpg) no-repeat center/cover;
     height:100%
@@ -66,6 +67,16 @@ p{
   transition: 0.3s ease;
 }
 
+.center img{
+
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.center img:hover{
+  transform: translateY(-5px);
+   box-shadow: 0 6px 20px maroon 
+}
 .stat-box div:first-child {
   font-size: 16px;
   font-weight: 600;
@@ -135,6 +146,27 @@ a:hover{
   object-fit: cover;
   height: 200px;
 }
+
+
+
+/* produts */
+.Product{
+   background: linear-gradient(rgba(5, 5, 5, 0.767),rgba(8, 8, 8, 0.774)),url(/img/ai-generated-vibrant-chemical-solutions-in-laboratory-glassware-on-a-reflective-surface-with-a-blurred-background-indicating-chemical-analysis-and-research-photo.jpg) no-repeat center/cover;
+
+
+   
+   height: 100%;
+}
+.but{
+  width: 200px;
+
+}
+  /* .card {
+  padding: 10px;
+  margin: 5px;
+  background: #f0f0f0;
+  display: inline-block;
+} */
 footer {
     background-color: rgba(110, 44, 46);
 }
@@ -145,4 +177,4 @@ footer p {
     color: white;
     text-align: center !important;   /* Force center */
     width: 100%;                     /* Full width required */
-}
+} 

@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "title": "Adhesive",
+      "img": "adhesive 1.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus distinctio perferendis ad expedita est inventore, quas earum quos vel, amet vitae asperiores nesciunt eum libero iure architecto aliquid? Natus."
+    },
+    {
+      "title": "flower",
+      "img": "2.jpeg",
+      "desc": "This is a longer card"
+    },
+    {
+      "title": "flower",
+      "img": "3.jpeg",
+      "desc": "This is a longer card"
+    },
+    {
+      "title": "flower",
+           "img": "4.jpeg",
+      "desc": "This is a longer card"
+    },
+    {
+      "title": "flower",
+           "img": "4.jpeg",
+      "desc": "This is a longer card"
+    },
+    {
+      "title": "flower",
+           "img": "4.jpeg",
+      "desc": "This is a longer card"
+    }
+  ]
+}
