@@ -46,9 +46,9 @@
         </section>
 <div class="container py-5 mx-auto">
     <div class="row row-cols-1 row-cols-md-3 g-4" id="productContainer">
+
     </div>
 </div>
-
 <script>
     $.get("products.json", function(data, status) {
 
@@ -57,11 +57,13 @@
         for (let product of productArr) {
             $("#productContainer").append(`
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 ">
                         <img src="img/${product.img}" class="card-img-top" alt="${product.title}">
                         <div class="card-body">
                             <h5 class="card-title">${product.title}</h5>
-                            <p class="card-text">${product.desc}</p>
+
+                            <!-- Description hidden by default -->
+                            <p class="card-text" style="display:none;">${product.desc}</p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +71,13 @@
         }
 
     });
+
+$(document).on("click", ".card", function () {
+    $(".card-text").not($(this).find(".card-text")).slideUp( 500);
+    $(this).find(".card-text").slideToggle(500);
+});
 </script>
+
 
 
 

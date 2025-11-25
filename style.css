@@ -77,6 +77,16 @@ p{
   transform: translateY(-5px);
    box-shadow: 0 6px 20px maroon 
 }
+.centerg img{
+
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.centerg img:hover{
+  transform: translateY(-5px);
+   box-shadow: 0 6px 20px maroon 
+}
 .stat-box div:first-child {
   font-size: 16px;
   font-weight: 600;

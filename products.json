@@ -3,31 +3,31 @@
     {
       "title": "Adhesive",
       "img": "adhesive 1.jpg",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellendus distinctio perferendis ad expedita est inventore, quas earum quos vel, amet vitae asperiores nesciunt eum libero iure architecto aliquid? Natus."
-    },
-    {
-      "title": "flower",
-      "img": "2.jpeg",
       "desc": "This is a longer card"
     },
     {
-      "title": "flower",
-      "img": "3.jpeg",
+      "title": "Solvent",
+      "img": "solvent 2.jpg",
       "desc": "This is a longer card"
     },
     {
-      "title": "flower",
-           "img": "4.jpeg",
+      "title": "Textile Chemical",
+      "img": "textile cheemical 2.jpg",
       "desc": "This is a longer card"
     },
     {
-      "title": "flower",
-           "img": "4.jpeg",
+      "title": "Footwer",
+           "img": "footwer2.webp",
       "desc": "This is a longer card"
     },
     {
-      "title": "flower",
-           "img": "4.jpeg",
+      "title": "Specialites",
+           "img": "specialites 3.jpeg",
+      "desc": "This is a longer card"
+    },
+    {
+      "title": "Leather-Chemicals",
+           "img": "leather-chemicals 2.jpg",
       "desc": "This is a longer card"
     }
   ]
