@@ -7,7 +7,13 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
+<style>
+  .card-text{
+    max-height: 120px;
+   overflow-y: auto;
+    
+  }
+</style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
        
@@ -37,6 +43,7 @@
     </div>
   </div>
 </nav>
+
     </header>
     <section class="Product">
             <div class="d-flex justify-content-center align-items-center vh-100 ">
@@ -55,6 +62,12 @@
         let productArr = data["products"];
 
         for (let product of productArr) {
+          let lines = product.desc.split(",");
+        let liItems = "";
+
+        for (let line of lines) {
+            liItems += `<li>${line.trim()}</li>`;
+        }
             $("#productContainer").append(`
                 <div class="col">
                     <div class="card h-100 ">
@@ -63,7 +76,10 @@
                             <h5 class="card-title">${product.title}</h5>
 
                             <!-- Description hidden by default -->
-                            <p class="card-text" style="display:none;">${product.desc}</p>
+                            <ul class="card-text" style="display:none; padding-left:20px;">
+                              
+                            ${liItems}
+                        </ul>
                         </div>
                     </div>
                 </div>
@@ -73,9 +89,10 @@
     });
 
 $(document).on("click", ".card", function () {
-    $(".card-text").not($(this).find(".card-text")).slideUp( 1000);
+    $(".card-text").not($(this).find(".card-text")).slideUp( 500);
     $(this).find(".card-text").slideToggle(500);
 });
+
 </script>
 
 
@@ -84,3 +101,5 @@ $(document).on("click", ".card", function () {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
+
+        

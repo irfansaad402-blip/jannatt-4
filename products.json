@@ -16,19 +16,22 @@
       "desc": "This is a longer card"
     },
     {
-      "title": "Footwer",
-           "img": "footwer2.webp",
-      "desc": "This is a longer card"
+      "title": "raw material",
+           "img": "raw material.jpg",
+      "desc": "CHLOROFORM, METHYLENE CHLORIDE, METHANOL, ISOPROPYL ALCOHOL (IPA), XYLENE, DICHLOROPROPANE (DCP), METHYLE ACETATE, BUTYL ACETATE, NATURAL RAW RUBBER Latex, VINYL ACETATE MONOMOR (VAM), SOLVENT (NR), N-PROPANOL, CYCLOHEXNOL, ACETONE, BENZENE, DI-ETHYLENE GLYCOL (DEG), SODIUM SULPHATE ANHYDROUS (SSA), SODIUM SULPHIDE RED FLAKES (SSF), DS/ASS ANHYDROUS SODIUM SULPHATE, NATURAL RUBBER (CREPE), ETHYLENE DICHLORIDE (EDC), CHLOROPRENE RUBBER 2444, SMOKE RUBBER, MAGNESIUM CARBONATE, GLYCERINE, SLES, POLYURETHANE (PU), PHENOLIC RESIN, WHITE OIL, BUTYLE GLYCOL, ETHYLENE GLYCOL, ETHYLE ACETATE, SOLVENT SBP, TRICHLORETHYLENE (TCE), HEXENE, MONO ETHYLENE GLYCOL (MEG)"
     },
     {
       "title": "Specialites",
            "img": "specialites 3.jpeg",
-      "desc": "This is a longer card"
+      "desc": "This is a longer card,card"
+      
     },
     {
       "title": "Leather-Chemicals",
            "img": "leather-chemicals 2.jpg",
-      "desc": "This is a longer card"
+      
+      
+      "desc": "VACTASOL MMT HC FLEX,VACTASOL MNT HC(FRA),VACTASOL RD, VEIXON SIFA (ORGANIC BASE), VIEXON Y 2K (SBC)VINACID ANE,VINACLEAN NA (NON-SOLVENT),VINACLEAN NA (NON-SOLVENT),VINAFIN FRP,VINALEVEL PY,VINAPHON RSK,VINAROL X (Solvent Base),VINASOL HCS (SFA),VINASOL HCS 370%,VINEXIL BAPK (CRO),VINOPHON RSK ,VINOPHON SOAP,VINSOLENE OIL,VINXANE OXA"
     }
   ]
 }
