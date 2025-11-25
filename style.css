@@ -2,6 +2,7 @@
 body{
   
        background-color: rgb(255, 255, 221);
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         
        }
 
@@ -21,6 +22,14 @@ body{
     height:100%;
     /* margin-top: 20px; */
 }
+
+.nav-link:hover{
+text-decoration: underline;
+
+}a{
+  color: black;
+}
+
 .right{
   margin-bottom: 30px;
 }
