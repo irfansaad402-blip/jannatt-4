@@ -24,7 +24,7 @@ body{
 }
 
 .nav-link:hover{
-text-decoration: underline;
+text-decoration: underline;`
 
 }a{
   color: black;
@@ -36,11 +36,10 @@ text-decoration: underline;
 i{ font-size: 20px;
     color: black;
    box-sizing: border-box;
-background-color: yellow;
-
-  
-
  
+}
+i:hover{
+
 }
 /* .hero,h1 {
  
