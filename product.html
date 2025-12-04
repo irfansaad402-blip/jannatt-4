@@ -51,6 +51,43 @@
 
             </div>
         </section>
+
+ <section class="center4">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-12 col-md-6">
+                    <h2 class=" text ">Manufacturing Powered by Trusted Imports. </h2>
+                    
+                    <p> 
+                     Chemicals is the process of producing, selling, or providing goods and services to meet people’s needs. Many industries run their business by using different chemicals to create high-quality products. For example, chemicals like Ethanol, Hydrogen Peroxide, and Calcium Carbonate help companies make cosmetics, cleaning items, medicines, and packaging materials.
+                    </p>
+               
+<button id="button" onclick="show(1)">Adhesive</button>
+<button  id="button" onclick="show(2)">TexTile</button>
+<button id="button" onclick="show(3)">Leather</button>
+<button id="button" onclick="show(4)">Solvent</button>
+<button id="button" onclick="show(5)">Raw Metrial</button>
+<button id="button" onclick="show(6)">SPecilites</button>
+                    
+                </div >
+             <div class="col-12 col-md-6 text-center">
+<img src="" alt="" id="img1" class="img-fluid">
+<img src="" alt="" id="img2" class="img-fluid">
+<img src="" alt="" id="img3" class="img-fluid">
+<img src="" alt="" id="img4" class="img-fluid">
+<img src="" alt="" id="img5" class="img-fluid">
+<img src="" alt="" id="img6" class="img-fluid">
+
+
+           </div>     
+       
+            </div>
+          
+        </div>
+    </section>
+
+
+        
 <div class="container py-5 mx-auto">
     <div class="row row-cols-1 row-cols-md-3 g-4" id="productContainer">
 
@@ -92,8 +129,30 @@ $(document).on("click", ".card", function () {
     $(".card-text").not($(this).find(".card-text")).slideUp( 500);
     $(this).find(".card-text").slideToggle(500);
 });
+ 
 
+
+
+function show(num) {
+
+    // sab images ko hide kar do
+    for (let i = 1; i <= 6; i++) {
+        document.getElementById("img" + i).src = "";
+    }
+
+    // jis image ka button click hua sirf woh show karein
+    if (num === 1) document.getElementById("img1").src = "img/Adhesives4.jpg";
+    if (num === 2) document.getElementById("img2").src = "img/textile-chemical2.jpg";
+
+    if (num === 3) document.getElementById("img3").src = "img/leather 1.jpeg";
+    if (num === 4) document.getElementById("img4").src = "img/solvent%203.jpg";
+    if (num === 5) document.getElementById("img5").src = "img/raw material.jpg";
+    if (num === 6) document.getElementById("img6").src = "img/specialites 2.jpeg";
+}
 </script>
+
+
+
 
 
 
@@ -102,4 +161,4 @@ $(document).on("click", ".card", function () {
 </body>
 </html>
 
-        
+        solvent 3

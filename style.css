@@ -179,6 +179,32 @@ a:hover{
   width: 200px;
 
 }
+/* .button{ display:flex; gap:12px; margin-top:6px; } */
+  #button{
+padding: 10px;
+    border-radius:12px;
+    background: linear-gradient(135deg,var(--accent1),var(--accent2));
+    box-shadow: 0 8px 30px maroon;
+    font-weight:700;
+    font-size:14px;
+    transform-origin:center;
+    color:black;
+    background-color: maroon;
+    animation: float 4s ease-in-out infinite;
+  }
+  @keyframes float{
+    0%{ transform: translateY(0) scale(1); opacity:1 }
+    50%{ transform: translateY(-8px) scale(1.02); opacity:0.98 }
+    100%{ transform: translateY(0) scale(1); opacity:1 }
+  }
+  .center4 img{
+    height: 300px;
+    border-radius: 25px;
+  }
+  .center4 img:hover{ border-radius: 25px;
+     transform: translateY(-5px);
+   box-shadow: 0 6px 20px maroon 
+  }
   /* .card {
   padding: 10px;
   margin: 5px;
