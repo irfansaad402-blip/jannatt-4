@@ -1,6 +1,9 @@
 
 body{
-  
+
+    font-family: 'Poppins', sans-serif;
+
+
        background-color: rgb(255, 255, 221);
        
         
@@ -38,9 +41,7 @@ i{ font-size: 20px;
    box-sizing: border-box;
  
 }
-i:hover{
 
-}
 /* .hero,h1 {
  
 
