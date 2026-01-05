@@ -93,14 +93,14 @@ p {
   box-shadow: 0 6px 20px maroon
 }
 
-.centerg img {
+.center img {
 
   height: 300px;
   object-fit: cover;
   border-radius: 25px;
 }
 
-.centerg img:hover {
+.center img:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px maroon
 }
@@ -174,7 +174,19 @@ p {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px maroon
 }
+#paragraph img:hover{
+ 
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px maroon
 
+}
+#paragraph img{
+ 
+border-radius: 25px
+}
+#paragraph{
+  color: rgb(110, 44, 46);
+}
 .text {
   color: rgb(110, 44, 46);
 }
