@@ -1,0 +1,278 @@
+body {
+
+  font-family: 'Times New Roman', Times, serif;
+
+
+  background-color: rgb(255, 255, 221);
+
+
+}
+
+
+
+.hero {
+  background: linear-gradient(rgba(15, 17, 20, 0.6), rgba(15, 17, 20, 0.6)), url(/img/img.jpg) no-repeat center/cover;
+  height: 100%
+}
+
+.feature,
+h1 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  background: linear-gradient(rgba(253, 249, 249, 0.877), rgba(252, 252, 252, 0.514)), url(img/img\ 3.jpg) no-repeat center/cover;
+  height: 100%;
+  /* margin-top: 20px; */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+
+}
+
+a {
+  color: black;
+}
+
+.right {
+  margin-bottom: 30px;
+}
+
+i {
+  font-size: 20px;
+  color: black;
+  box-sizing: border-box;
+
+}
+
+
+.logo img {
+  height: 70px;
+}
+
+header {
+  background-color: rgb(255, 255, 221);
+}
+
+iframe {
+  width: 100%;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+
+p {
+  font-size: 13px;
+}
+
+.stat-box {
+  background-color: rgba(110, 44, 46);
+  border-radius: 10px;
+  padding: 25px 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.center img {
+
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.center img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px maroon
+}
+
+.center img {
+
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.center img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px maroon
+}
+
+.stat-box div:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.state-num {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-top: 8px;
+}
+
+/* Hover Effect */
+.stat-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.feature {
+  background: linear-gradient(rgba(5, 5, 5, 0.767), rgba(8, 8, 8, 0.774)), url(/img/about\ 1.jpg) no-repeat center/cover;
+  height: 100%;
+}
+
+img {
+
+  height: 500px;
+}
+
+a:hover {
+
+  color: maroon;
+}
+
+a {
+  color: white;
+}
+
+.card {
+  background-color: rgb(255, 255, 221);
+  overflow: hidden;
+  border-radius: 20px;
+
+
+}
+
+.team img {
+  border-radius: 20px;
+  height: 300px;
+}
+
+p {
+
+  text-align: justify;
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-radius: 10px;
+  cursor: pointer;
+  /* transform: scale(0.98); */
+  box-shadow: 0 6px 20px maroon
+}
+
+.team img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px maroon
+}
+#paragraph img:hover{
+ 
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px maroon
+
+}
+#paragraph img{
+ 
+border-radius: 25px
+}
+#paragraph{
+  color: rgb(110, 44, 46);
+}
+.text {
+  color: rgb(110, 44, 46);
+}
+
+.card img {
+  cursor: pointer;
+  object-fit: cover;
+  height: 200px;
+}
+
+
+
+/* produts */
+.Product {
+  background: linear-gradient(rgba(5, 5, 5, 0.767), rgba(8, 8, 8, 0.774)), url(/img/ai-generated-vibrant-chemical-solutions-in-laboratory-glassware-on-a-reflective-surface-with-a-blurred-background-indicating-chemical-analysis-and-research-photo.jpg) no-repeat center/cover;
+
+
+
+  height: 100%;
+}
+
+.but {
+  width: 200px;
+
+}
+
+/* .button{ display:flex; gap:12px; margin-top:6px; } */
+#button {
+  padding: 10px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent1), var(--accent2));
+  box-shadow: 0 8px 30px maroon;
+  font-weight: 700;
+  font-size: 14px;
+  transform-origin: center;
+  color: black;
+  background-color: maroon;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.02);
+    opacity: 0.98
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1
+  }
+}
+
+.center4 img {
+  height: 300px;
+  border-radius: 25px;
+}
+
+.center4 img:hover {
+  border-radius: 25px;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px maroon
+}
+
+/* .card {
+  padding: 10px;
+  margin: 5px;
+  background: #f0f0f0;
+  display: inline-block;
+} */
+footer {
+  background-color: rgba(110, 44, 46);
+}
+
+.team {
+  color: rgb(110, 44, 46);
+}
+
+footer p {
+  color: white;
+  text-align: center !important;
+  /* Force center */
+  width: 100%;
+  /* Full width required */
+}
