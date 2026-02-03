@@ -99,31 +99,31 @@
 
 
       <div class="right col-12 col-md-6 ">
-   <form class="container py-5" action='/contact form/send.php' method="post">
+      <form action="data.php" method="post">
 
 
 
           <label for="Fullname" class="text">Fullname:</label>
-          <input type="text" name="Fullname" id="Fullname" class="form-control">
+          <input type="text" name="Fullname" class="form-control">
 
 
 
           <label for="emial" class="text">Email:</label>
-          <input type="email" name="email" id="email" class="form-control" >
+          <input type="email" name="email" class="form-control" pattern="^\w+@\w+\.\w+$">
 
 
 
 
           <label for="phone" class="text">Phone:</label>
-          <input type="number" name="phone" id="phone" class="form-control" >
+          <input type="number" name="phone" class="form-control" pattern="^\d+$">
 
 
 
           <label for="message" class="text">Message:</label>
-          <textarea name="message" id="message" class="form-control"></textarea>
+          <textarea name="message" class="form-control"></textarea>
 
           <div class="mt-2">
-            <button class="form-control btn-warning " name ='Send'>Send Message</button>
+            <button class="form-control btn-warning ">Send Message</button>
           </div>
 
         </form>
@@ -206,34 +206,13 @@
     </div>
   </footer>
 
- 
-<!-- 
-  <script>
-    $(document).ready(function () {
-      $("form").submit(function (e) {
-        e.preventDefault()
-        let name = $("#Fullname").val()
-        let emial = $("#emial").val()
-        let phone = $("#phone").val()
-        let message = $("#message").val()
-
-        if (name == "" || emial == "" || phone == "") {
-          alert("PLEASE FILL")
-        }
+  <!-- js  -->
 
 
-        else {
-          alert("successfully")
-          $("#Fullname").val("")
-          $("#emial").val("")
-          $("#phone").val("")
-          $("#message").val("")
 
-        }
 
-      })
-    })
-  </script> -->
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
